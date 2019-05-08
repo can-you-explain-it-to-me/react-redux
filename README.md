@@ -20,8 +20,8 @@ src
 │   ├── verifySubselectors.js
 │   └── wrapMapToProps.js
 └── utils
-    ├── Subscription.js
-    ├── batch.js
+    ├── Subscription.js                         # 封装了订阅器，将store和组件连接起来，用于通知组件更新
+    ├── batch.js                                # 一个简单的调用callback的函数
     ├── isPlainObject.js
     ├── reactBatchedUpdates.js
     ├── reactBatchedUpdates.native.js

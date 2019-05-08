@@ -1,4 +1,5 @@
-// Default to a dummy "batch" implementation that just runs the callback
+// Default to a dummy(假的) "batch"(批量) implementation that just runs the callback
+/* 这么写的有什么好处？？？ */
 function defaultNoopBatch(callback) {
   callback()
 }
